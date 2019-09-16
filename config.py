@@ -20,3 +20,5 @@ class Config(object):
     POSTS_PER_PAGE = 3
 
     LANGUAGES = ["en", "ru"]
+
+    YA_TRANSLATOR_KEY = os.environ.get('YA_TRANSLATOR_KEY')
