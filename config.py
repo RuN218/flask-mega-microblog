@@ -18,3 +18,5 @@ class Config(object):
     ADMINS = ["218.run@gmail.com"]
 
     POSTS_PER_PAGE = 3
+
+    LANGUAGES = ["en", "ru"]
