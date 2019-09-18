@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-17 16:47+0300\n"
+"POT-Creation-Date: 2019-09-18 15:10+0300\n"
 "PO-Revision-Date: 2019-09-16 11:29+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 
-#: app/__init__.py:22
+#: app/__init__.py:24
 msgid "Please log in to access this page."
 msgstr "Для доступа к этой странице пожалуйста залогиньтесь"
 
@@ -116,7 +116,7 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: app/main/routes.py:35 app/templates/base.html:23
+#: app/main/routes.py:35
 msgid "Explore"
 msgstr "Все посты"
 
@@ -159,12 +159,20 @@ msgstr "Вы не можете отписаться от себя!"
 msgid "You are not following %(username)s."
 msgstr "Вы отписались от пользователя %(username)s."
 
-#: app/main/routes.py:173
+#: app/main/routes.py:174
 msgid "Your message has been sent."
 msgstr ""
 
-#: app/main/routes.py:175
+#: app/main/routes.py:176
 msgid "Send Message"
+msgstr ""
+
+#: app/main/routes.py:215
+msgid "An export task is currently in progress"
+msgstr ""
+
+#: app/main/routes.py:217
+msgid "Exporting posts..."
 msgstr ""
 
 #: app/templates/_post.html:16
@@ -176,46 +184,22 @@ msgstr "%(username)s сказал %(when)s"
 msgid "Translate"
 msgstr ""
 
-#: app/templates/base.html:4
-msgid "Welcome to Microblog"
-msgstr "Добро пожаловать на Microblog"
-
-#: app/templates/base.html:22
-msgid "Home"
-msgstr "Главная"
-
-#: app/templates/base.html:35
-msgid "Login"
-msgstr "Войти"
-
-#: app/templates/base.html:37 app/templates/messages.html:4
-msgid "Messages"
-msgstr ""
-
-#: app/templates/base.html:38
-msgid "Profile"
-msgstr "Профиль"
-
-#: app/templates/base.html:39
-msgid "Logout"
-msgstr "Выйти"
-
-#: app/templates/base.html:70
-msgid "Error: Could not contact server."
-msgstr ""
-
 #: app/templates/index.html:5
 #, python-format
 msgid "Hello, %(username)s"
 msgstr "Привет, %(username)s!"
 
-#: app/templates/index.html:17 app/templates/user.html:40
+#: app/templates/index.html:17 app/templates/user.html:47
 msgid "Newer posts"
 msgstr "Новые посты"
 
-#: app/templates/index.html:22 app/templates/user.html:45
+#: app/templates/index.html:22 app/templates/user.html:52
 msgid "Older posts"
 msgstr "Старые посты"
+
+#: app/templates/messages.html:4
+msgid "Messages"
+msgstr ""
 
 #: app/templates/messages.html:12
 msgid "Newer messages"
@@ -268,11 +252,15 @@ msgstr ""
 msgid "Edit your profile"
 msgstr "Редактировать ваш профиль"
 
-#: app/templates/user.html:26 app/templates/user_popup.html:26
+#: app/templates/user.html:28
+msgid "Export your posts"
+msgstr ""
+
+#: app/templates/user.html:33 app/templates/user_popup.html:26
 msgid "Follow"
 msgstr "Подписаться"
 
-#: app/templates/user.html:28 app/templates/user_popup.html:30
+#: app/templates/user.html:35 app/templates/user_popup.html:30
 msgid "Unfollow"
 msgstr "Отписаться"
 
@@ -311,4 +299,22 @@ msgstr "Произошла неожиданная ошибка"
 #: app/templates/errors/500.html:5
 msgid "The administrator has been notified. Sorry for the inconvenience!"
 msgstr "Администратор был уведомлен. Приносим извинения за неудобства!"
+
+#~ msgid "Welcome to Microblog"
+#~ msgstr "Добро пожаловать на Microblog"
+
+#~ msgid "Home"
+#~ msgstr "Главная"
+
+#~ msgid "Login"
+#~ msgstr "Войти"
+
+#~ msgid "Profile"
+#~ msgstr "Профиль"
+
+#~ msgid "Logout"
+#~ msgstr "Выйти"
+
+#~ msgid "Error: Could not contact server."
+#~ msgstr ""
 
